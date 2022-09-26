@@ -1,11 +1,11 @@
-const buttonShowModal = document.querySelector('#showForm');
-const formBuku = document.querySelector('#formBuku');
-const buttonHideModal = document.querySelector('#buttonHideModal');
+const addBook = document.querySelector('#add-book');
+const formBook = document.querySelector('#form-book');
+const judul = document.querySelector('#judul');
+const penulis = document.querySelector('#penulis');
+const tahun = document.querySelector('#tahun');
 
-function showModal() {
-  formBuku.classList.remove('hidden');
-  buttonHideModal.classList.remove('flex');
-  buttonHideModal.classList.add('hidden');
+function addBooks(){
+   formBook.classList.remove('hidden');
 }
 
-buttonShowModal.addEventListener('click', showModal);
+addBook.addEventListener('click', addBooks);
